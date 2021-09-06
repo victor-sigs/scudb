@@ -12,4 +12,4 @@ test0.cpp
 测试Matrix的基本构造与修改  
 测试Matrix的加、减、乘法后加法运算  
 ## 测试截图：
-![测试截图](https://github.com/vvvictor-scu/scudb/blob/main/Test%20screenshot.png)
+![Image text](https://raw.githubusercontent.com/vvvictor-scu/scudb/main/Test%20screenshot.png)
