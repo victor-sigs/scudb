@@ -5,9 +5,12 @@
 ### p0:  
 p0_starter.h  
 p0_starter.cpp  
-test0.cpp 
+test0.cpp
+Test screenshot.png
 ### homework1
-screenshots文件夹  
-submission.zip
+#### screenshots文件夹  
+q1~q10 screenshots  
+#### submission.zip
+q1~q10 .sql  
 ### README.md  
 每次作业将会在本分支创建一个新文件夹并上传
