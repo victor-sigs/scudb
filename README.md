@@ -1,15 +1,13 @@
-# p0_starter: 实现矩阵的功能
+# 四川大学数据库作业上传
 姓名：王韦涛  
 学号：2019141440320  
 ## 目录结构：  
-### Assignment:  
+### p0:  
 p0_starter.h  
 p0_starter.cpp  
-test0.cpp  
+test0.cpp 
+### homework1
+screenshots文件夹
+submission.zip
 ### README.md  
-### Test screenshot.png
-## 测试文件的功能：
-测试Matrix的基本构造与修改  
-测试Matrix的加、减、乘法后加法运算  
-## 测试截图：
-![Image text](https://github.com/vvvictor-scu/scudb/blob/main/Test%20screenshot.png)
+每次作业将会在本分支创建一个新文件夹并上传
