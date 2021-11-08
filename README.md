@@ -12,5 +12,8 @@ Test screenshot.png
 q1~q10 screenshots  
 #### -submission.zip
 q1~q10 .sql  
+### -homework2
+homework2-1.jpg
+homework2-2.jpg
 ### -README.md  
 # 每次作业将会在本分支创建一个新文件夹并上传
