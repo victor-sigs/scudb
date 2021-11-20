@@ -20,4 +20,4 @@ homework2-2.jpg
 ## master分支：
 project1:实现buffer_manager_pool
 # 每次作业将会在main分支创建一个新文件夹并上传
-# 每次编程项目则会创建一个新分支，例如project1可在master分支中查看
+# 每次编程项目则会创建一个新分支，例如project1在master分支中查看
