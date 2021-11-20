@@ -6,7 +6,7 @@
 ### - p0:  
 p0_starter.h  
 p0_starter.cpp  
-test0.cpp
+test0.cpp  
 Test screenshot.png
 ### - homework1
 #### - screenshots文件夹  
@@ -14,7 +14,7 @@ q1~q10 screenshots
 #### - submission.zip
 q1~q10 .sql  
 ### - homework2
-homework2-1.jpg
+homework2-1.jpg  
 homework2-2.jpg
 ### - README.md 
 ## master分支：
