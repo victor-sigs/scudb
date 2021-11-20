@@ -18,6 +18,6 @@ homework2-1.jpg
 homework2-2.jpg
 ### -README.md 
 ## master分支：
-project1:实现buffer_manager_pool
+project1: 实现buffer_pool_manager
 # 每次作业将会在main分支创建一个新文件夹并上传
 # 每次编程项目则会创建一个新分支，例如project1在master分支中查看
