@@ -10,7 +10,7 @@
 #include <chrono>
 #include <cstdint>
 
-namespace cmudb {
+namespace scudb {
 
 extern std::chrono::duration<long long int> LOG_TIMEOUT;
 

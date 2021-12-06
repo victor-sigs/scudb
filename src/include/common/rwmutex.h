@@ -10,7 +10,7 @@
 #include <condition_variable>
 #include <mutex>
 
-namespace cmudb {
+namespace scudb {
 class RWMutex {
 
   typedef std::mutex mutex_t;

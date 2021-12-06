@@ -15,7 +15,7 @@
 
 #include "common/config.h"
 
-namespace cmudb {
+namespace scudb {
 
 class DiskManager {
 public:

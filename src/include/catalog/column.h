@@ -9,7 +9,7 @@
 #include "common/exception.h"
 #include "type/type.h"
 
-namespace cmudb {
+namespace scudb {
 
 class Column {
   friend class Schema;

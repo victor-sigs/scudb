@@ -12,7 +12,7 @@
 #include "table/table_iterator.h"
 #include "table/tuple.h"
 
-namespace cmudb {
+namespace scudb {
 
 class TableHeap {
   friend class TableIterator;

@@ -10,7 +10,7 @@
 #include "catalog/column.h"
 #include "type/type.h"
 
-namespace cmudb {
+namespace scudb {
 
 class Schema {
 public:

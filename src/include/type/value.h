@@ -9,7 +9,7 @@
 #include "type/type.h"
 #include <cstring>
 
-namespace cmudb {
+namespace scudb {
 
 class type;
 

@@ -11,7 +11,7 @@
 #include "common/rid.h"
 #include "table/tuple.h"
 
-namespace cmudb {
+namespace scudb {
 
 class TableHeap;
 

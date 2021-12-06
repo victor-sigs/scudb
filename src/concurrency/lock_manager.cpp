@@ -5,7 +5,7 @@
 #include <cassert>
 #include "concurrency/lock_manager.h"
 
-namespace cmudb {
+namespace scudb {
 
 bool LockManager::LockShared(Transaction *txn, const RID &rid) {
   std::unique_lock<std::mutex> latch(mutex_);
@@ -193,4 +193,4 @@ bool LockManager::Unlock(Transaction *txn, const RID &rid) {
   return true;
 }
 
-} // namespace cmudb
+} // namespace scudb

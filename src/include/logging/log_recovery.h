@@ -13,7 +13,7 @@
 #include "concurrency/lock_manager.h"
 #include "logging/log_record.h"
 
-namespace cmudb {
+namespace scudb {
 
 class LogRecovery {
 public:

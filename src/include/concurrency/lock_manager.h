@@ -15,7 +15,7 @@
 #include "common/rid.h"
 #include "concurrency/transaction.h"
 
-namespace cmudb {
+namespace scudb {
 
 enum class LockMode { SHARED = 0, EXCLUSIVE };
 

@@ -14,7 +14,7 @@
 #include "table/tuple.h"
 #include "type/value.h"
 
-namespace cmudb {
+namespace scudb {
 /* Helpers */
 Schema *ParseCreateStatement(const std::string &sql);
 

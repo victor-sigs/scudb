@@ -12,7 +12,7 @@
 #include "concurrency/lock_manager.h"
 #include "logging/log_manager.h"
 
-namespace cmudb {
+namespace scudb {
 class TransactionManager {
 public:
   explicit TransactionManager(LockManager *lock_manager,

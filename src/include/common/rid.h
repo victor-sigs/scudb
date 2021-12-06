@@ -9,7 +9,7 @@
 
 #include "common/config.h"
 
-namespace cmudb {
+namespace scudb {
 
 class RID {
 public:
@@ -54,8 +54,8 @@ private:
 } // namespace cmudb
 
 namespace std {
-template <> struct hash<cmudb::RID> {
-  size_t operator()(const cmudb::RID &obj) const {
+template <> struct hash<scudb::RID> {
+  size_t operator()(const scudb::RID &obj) const {
     return hash<int64_t>()(obj.Get());
   }
 };

@@ -15,7 +15,7 @@
 #include "page/page.h"
 #include "table/tuple.h"
 
-namespace cmudb {
+namespace scudb {
 
 /**
  * Transaction states:

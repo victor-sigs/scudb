@@ -5,7 +5,7 @@
 #include "logging/log_recovery.h"
 #include "page/table_page.h"
 
-namespace cmudb {
+namespace scudb {
 
 /*
  * deserialize a log record from log buffer
@@ -260,4 +260,4 @@ void LogRecovery::Undo() {
   lsn_mapping_.clear();
 }
 
-} // namespace cmudb
+} // namespace scudb

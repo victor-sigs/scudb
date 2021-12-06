@@ -32,7 +32,7 @@
 #include "common/config.h"
 #include "table/tuple.h"
 
-namespace cmudb {
+namespace scudb {
 
 // log record type
 enum class LogRecordType {

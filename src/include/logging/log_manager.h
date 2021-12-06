@@ -15,7 +15,7 @@
 #include "disk/disk_manager.h"
 #include "logging/log_record.h"
 
-namespace cmudb {
+namespace scudb {
 
 class LogManager {
 public:

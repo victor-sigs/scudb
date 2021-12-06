@@ -8,7 +8,7 @@
 
 #include <cassert>
 
-namespace cmudb {
+namespace scudb {
 
 Transaction *TransactionManager::Begin() {
   Transaction *txn = new Transaction(next_txn_id_++);
@@ -104,4 +104,4 @@ void TransactionManager::Abort(Transaction *txn) {
     lock_manager_->Unlock(txn, locked_rid);
   }
 }
-} // namespace cmudb
+} // namespace scudb

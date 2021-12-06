@@ -24,7 +24,7 @@
 #include <ctime>
 #include <string>
 
-namespace cmudb {
+namespace scudb {
 
 // Note that __VTableFILE__ is a special pre-processor macro that we
 // generate for shorter path names using CMake.

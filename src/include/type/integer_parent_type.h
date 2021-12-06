@@ -5,7 +5,7 @@
 #include "common/exception.h"
 #include "type/numeric_type.h"
 
-namespace cmudb {
+namespace scudb {
 // An integer value of the common sizes.
 class IntegerParentType : public NumericType {
 public:

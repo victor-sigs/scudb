@@ -8,7 +8,7 @@
 
 #include "type/type.h"
 
-namespace cmudb {
+namespace scudb {
 /**
  * Type Utility Functions
  */

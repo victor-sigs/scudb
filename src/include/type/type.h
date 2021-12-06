@@ -8,7 +8,7 @@
 
 #include "type/type_id.h"
 
-namespace cmudb {
+namespace scudb {
 
 class Value;
 

@@ -7,7 +7,7 @@
 #include <cstdint>
 #include <limits>
 
-namespace cmudb {
+namespace scudb {
 
 static const double DBL_LOWEST = std::numeric_limits<double>::lowest();
 static const double FLT_LOWEST = std::numeric_limits<float>::lowest();
