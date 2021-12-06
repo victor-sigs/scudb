@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/victor/Desktop/ScuDb/cmu15-445-master/project
+CMAKE_SOURCE_DIR = /home/victor/Desktop/ScuDb/scudb_project2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/victor/Desktop/ScuDb/cmu15-445-master/project/build
+CMAKE_BINARY_DIR = /home/victor/Desktop/ScuDb/scudb_project2/build
 
 # Utility rule file for ContinuousConfigure.
 
@@ -71,6 +71,6 @@ CMakeFiles/ContinuousConfigure.dir/clean:
 .PHONY : CMakeFiles/ContinuousConfigure.dir/clean
 
 CMakeFiles/ContinuousConfigure.dir/depend:
-	cd /home/victor/Desktop/ScuDb/cmu15-445-master/project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/victor/Desktop/ScuDb/cmu15-445-master/project /home/victor/Desktop/ScuDb/cmu15-445-master/project /home/victor/Desktop/ScuDb/cmu15-445-master/project/build /home/victor/Desktop/ScuDb/cmu15-445-master/project/build /home/victor/Desktop/ScuDb/cmu15-445-master/project/build/CMakeFiles/ContinuousConfigure.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/victor/Desktop/ScuDb/scudb_project2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/victor/Desktop/ScuDb/scudb_project2 /home/victor/Desktop/ScuDb/scudb_project2 /home/victor/Desktop/ScuDb/scudb_project2/build /home/victor/Desktop/ScuDb/scudb_project2/build /home/victor/Desktop/ScuDb/scudb_project2/build/CMakeFiles/ContinuousConfigure.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ContinuousConfigure.dir/depend
 

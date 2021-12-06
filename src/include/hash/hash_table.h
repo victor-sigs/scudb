@@ -6,7 +6,7 @@
 
 #pragma once
 
-namespace cmudb {
+namespace scudb {
 
 template <typename K, typename V> class HashTable {
 public:
@@ -24,4 +24,4 @@ public:
   virtual size_t Size() const = 0;
 };
 
-} // namespace cmudb
+} // namespace scudb

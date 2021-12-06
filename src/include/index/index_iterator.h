@@ -8,7 +8,7 @@
 #include "page/b_plus_tree_leaf_page.h"
 #include "buffer/buffer_pool_manager.h"
 
-namespace cmudb {
+namespace scudb {
 
 #define INDEXITERATOR_TYPE                                                     \
   IndexIterator<KeyType, ValueType, KeyComparator>
@@ -35,4 +35,4 @@ private:
   BufferPoolManager *buff_pool_manager_;
 };
 
-} // namespace cmudb
+} // namespace scudb

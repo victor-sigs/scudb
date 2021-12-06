@@ -3,7 +3,7 @@
  */
 #include "page/b_plus_tree_page.h"
 
-namespace cmudb {
+namespace scudb {
 
 /*
  * Helper methods to get/set page type
@@ -59,4 +59,4 @@ void BPlusTreePage::SetPageId(page_id_t page_id) { page_id_ = page_id; }
  */
 void BPlusTreePage::SetLSN(lsn_t lsn) { lsn_ = lsn; }
 
-} // namespace cmudb
+} // namespace scudb

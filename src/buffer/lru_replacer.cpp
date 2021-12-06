@@ -6,7 +6,7 @@
 #include "buffer/lru_replacer.h"
 #include "page/page.h"
 
-namespace cmudb {
+namespace scudb {
 
 template <typename T> LRUReplacer<T>::LRUReplacer():size_(0) {
   head_ = std::make_unique<node>();  // dummy node
@@ -118,4 +118,4 @@ template class LRUReplacer<Page *>;
 // test only
 template class LRUReplacer<int>;
 
-} // namespace cmudb
+} // namespace scudb

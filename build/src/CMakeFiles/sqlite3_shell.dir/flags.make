@@ -6,5 +6,5 @@ C_FLAGS =
 
 C_DEFINES = -DSQLITE_THREADSAFE=2
 
-C_INCLUDES = -I/home/victor/Desktop/ScuDb/cmu15-445-master/project/src -I/home/victor/Desktop/ScuDb/cmu15-445-master/project/src/include -I/home/victor/Desktop/ScuDb/cmu15-445-master/project/test/include -I/home/victor/Desktop/ScuDb/cmu15-445-master/project/third_party 
+C_INCLUDES = -I/home/victor/Desktop/ScuDb/scudb_project2/src -I/home/victor/Desktop/ScuDb/scudb_project2/src/include -I/home/victor/Desktop/ScuDb/scudb_project2/test/include -I/home/victor/Desktop/ScuDb/scudb_project2/third_party 
 

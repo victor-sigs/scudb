@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/victor/Desktop/ScuDb/cmu15-445-master/project
+CMAKE_SOURCE_DIR = /home/victor/Desktop/ScuDb/scudb_project2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/victor/Desktop/ScuDb/cmu15-445-master/project/build
+CMAKE_BINARY_DIR = /home/victor/Desktop/ScuDb/scudb_project2/build
 
 # Include any dependencies generated for this target.
 include test/CMakeFiles/buffer_pool_manager_test.dir/depend.make
@@ -59,16 +59,16 @@ include test/CMakeFiles/buffer_pool_manager_test.dir/flags.make
 
 test/CMakeFiles/buffer_pool_manager_test.dir/buffer/buffer_pool_manager_test.cpp.o: test/CMakeFiles/buffer_pool_manager_test.dir/flags.make
 test/CMakeFiles/buffer_pool_manager_test.dir/buffer/buffer_pool_manager_test.cpp.o: ../test/buffer/buffer_pool_manager_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/Desktop/ScuDb/cmu15-445-master/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/buffer_pool_manager_test.dir/buffer/buffer_pool_manager_test.cpp.o"
-	cd /home/victor/Desktop/ScuDb/cmu15-445-master/project/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/buffer_pool_manager_test.dir/buffer/buffer_pool_manager_test.cpp.o -c /home/victor/Desktop/ScuDb/cmu15-445-master/project/test/buffer/buffer_pool_manager_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/Desktop/ScuDb/scudb_project2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/buffer_pool_manager_test.dir/buffer/buffer_pool_manager_test.cpp.o"
+	cd /home/victor/Desktop/ScuDb/scudb_project2/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/buffer_pool_manager_test.dir/buffer/buffer_pool_manager_test.cpp.o -c /home/victor/Desktop/ScuDb/scudb_project2/test/buffer/buffer_pool_manager_test.cpp
 
 test/CMakeFiles/buffer_pool_manager_test.dir/buffer/buffer_pool_manager_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/buffer_pool_manager_test.dir/buffer/buffer_pool_manager_test.cpp.i"
-	cd /home/victor/Desktop/ScuDb/cmu15-445-master/project/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/Desktop/ScuDb/cmu15-445-master/project/test/buffer/buffer_pool_manager_test.cpp > CMakeFiles/buffer_pool_manager_test.dir/buffer/buffer_pool_manager_test.cpp.i
+	cd /home/victor/Desktop/ScuDb/scudb_project2/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/Desktop/ScuDb/scudb_project2/test/buffer/buffer_pool_manager_test.cpp > CMakeFiles/buffer_pool_manager_test.dir/buffer/buffer_pool_manager_test.cpp.i
 
 test/CMakeFiles/buffer_pool_manager_test.dir/buffer/buffer_pool_manager_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/buffer_pool_manager_test.dir/buffer/buffer_pool_manager_test.cpp.s"
-	cd /home/victor/Desktop/ScuDb/cmu15-445-master/project/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/Desktop/ScuDb/cmu15-445-master/project/test/buffer/buffer_pool_manager_test.cpp -o CMakeFiles/buffer_pool_manager_test.dir/buffer/buffer_pool_manager_test.cpp.s
+	cd /home/victor/Desktop/ScuDb/scudb_project2/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/Desktop/ScuDb/scudb_project2/test/buffer/buffer_pool_manager_test.cpp -o CMakeFiles/buffer_pool_manager_test.dir/buffer/buffer_pool_manager_test.cpp.s
 
 # Object files for target buffer_pool_manager_test
 buffer_pool_manager_test_OBJECTS = \
@@ -83,8 +83,8 @@ test/buffer_pool_manager_test: lib/libvtable.so
 test/buffer_pool_manager_test: lib/libsqlite3.so
 test/buffer_pool_manager_test: lib/libgtest.so
 test/buffer_pool_manager_test: test/CMakeFiles/buffer_pool_manager_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/victor/Desktop/ScuDb/cmu15-445-master/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable buffer_pool_manager_test"
-	cd /home/victor/Desktop/ScuDb/cmu15-445-master/project/build/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/buffer_pool_manager_test.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/victor/Desktop/ScuDb/scudb_project2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable buffer_pool_manager_test"
+	cd /home/victor/Desktop/ScuDb/scudb_project2/build/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/buffer_pool_manager_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 test/CMakeFiles/buffer_pool_manager_test.dir/build: test/buffer_pool_manager_test
@@ -92,10 +92,10 @@ test/CMakeFiles/buffer_pool_manager_test.dir/build: test/buffer_pool_manager_tes
 .PHONY : test/CMakeFiles/buffer_pool_manager_test.dir/build
 
 test/CMakeFiles/buffer_pool_manager_test.dir/clean:
-	cd /home/victor/Desktop/ScuDb/cmu15-445-master/project/build/test && $(CMAKE_COMMAND) -P CMakeFiles/buffer_pool_manager_test.dir/cmake_clean.cmake
+	cd /home/victor/Desktop/ScuDb/scudb_project2/build/test && $(CMAKE_COMMAND) -P CMakeFiles/buffer_pool_manager_test.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/buffer_pool_manager_test.dir/clean
 
 test/CMakeFiles/buffer_pool_manager_test.dir/depend:
-	cd /home/victor/Desktop/ScuDb/cmu15-445-master/project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/victor/Desktop/ScuDb/cmu15-445-master/project /home/victor/Desktop/ScuDb/cmu15-445-master/project/test /home/victor/Desktop/ScuDb/cmu15-445-master/project/build /home/victor/Desktop/ScuDb/cmu15-445-master/project/build/test /home/victor/Desktop/ScuDb/cmu15-445-master/project/build/test/CMakeFiles/buffer_pool_manager_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/victor/Desktop/ScuDb/scudb_project2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/victor/Desktop/ScuDb/scudb_project2 /home/victor/Desktop/ScuDb/scudb_project2/test /home/victor/Desktop/ScuDb/scudb_project2/build /home/victor/Desktop/ScuDb/scudb_project2/build/test /home/victor/Desktop/ScuDb/scudb_project2/build/test/CMakeFiles/buffer_pool_manager_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/buffer_pool_manager_test.dir/depend
 

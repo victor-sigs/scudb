@@ -11,7 +11,7 @@
 #include "index/b_plus_tree.h"
 #include "page/header_page.h"
 
-namespace cmudb {
+namespace scudb {
 
 template <typename KeyType, typename ValueType, typename KeyComparator>
 BPlusTree<KeyType, ValueType, KeyComparator>::
@@ -878,4 +878,4 @@ template class BPlusTree<GenericKey<16>, RID, GenericComparator<16>>;
 template class BPlusTree<GenericKey<32>, RID, GenericComparator<32>>;
 template class BPlusTree<GenericKey<64>, RID, GenericComparator<64>>;
 
-} // namespace cmudb
+} // namespace scudb

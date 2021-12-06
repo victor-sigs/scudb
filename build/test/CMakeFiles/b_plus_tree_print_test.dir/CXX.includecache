@@ -518,7 +518,7 @@ iosfwd
 vector
 -
 
-/home/victor/Desktop/ScuDb/cmu15-445-master/project/test/index/b_plus_tree_print_test.cpp
+/home/victor/Desktop/ScuDb/scudb_project2/test/index/b_plus_tree_print_test.cpp
 cstdio
 -
 iostream
@@ -526,13 +526,13 @@ iostream
 sstream
 -
 buffer/buffer_pool_manager.h
-/home/victor/Desktop/ScuDb/cmu15-445-master/project/test/index/buffer/buffer_pool_manager.h
+/home/victor/Desktop/ScuDb/scudb_project2/test/index/buffer/buffer_pool_manager.h
 common/logger.h
-/home/victor/Desktop/ScuDb/cmu15-445-master/project/test/index/common/logger.h
+/home/victor/Desktop/ScuDb/scudb_project2/test/index/common/logger.h
 index/b_plus_tree.h
-/home/victor/Desktop/ScuDb/cmu15-445-master/project/test/index/index/b_plus_tree.h
+/home/victor/Desktop/ScuDb/scudb_project2/test/index/index/b_plus_tree.h
 vtable/virtual_table.h
-/home/victor/Desktop/ScuDb/cmu15-445-master/project/test/index/vtable/virtual_table.h
+/home/victor/Desktop/ScuDb/scudb_project2/test/index/vtable/virtual_table.h
 gtest/gtest.h
-/home/victor/Desktop/ScuDb/cmu15-445-master/project/test/index/gtest/gtest.h
+/home/victor/Desktop/ScuDb/scudb_project2/test/index/gtest/gtest.h
 

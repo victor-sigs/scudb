@@ -18,7 +18,7 @@
 
 #include "hash/hash_table.h"
 
-namespace cmudb {
+namespace scudb {
 
 // only support unique key
 template <typename K, typename V>
@@ -71,4 +71,4 @@ private:
   std::vector<std::shared_ptr<Bucket>> directory_;  // smart pointer for auto memory management
 };
 
-} // namespace cmudb
+} // namespace scudb

@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/victor/Desktop/ScuDb/cmu15-445-master/project
-BuildDirectory: /home/victor/Desktop/ScuDb/cmu15-445-master/project/build
+SourceDirectory: /home/victor/Desktop/ScuDb/scudb_project2
+BuildDirectory: /home/victor/Desktop/ScuDb/scudb_project2/build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -26,7 +26,7 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/home/victor/Desktop/ScuDb/cmu15-445-master/project"
+ConfigureCommand: "/usr/bin/cmake" "/home/victor/Desktop/ScuDb/scudb_project2"
 MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 
@@ -57,9 +57,9 @@ P4UpdateOptions:
 P4UpdateCustom: 
 
 # Generic update command
-UpdateCommand: 
+UpdateCommand: /usr/bin/git
 UpdateOptions: 
-UpdateType: 
+UpdateType: git
 
 # Compiler info
 Compiler: /usr/bin/c++

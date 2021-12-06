@@ -15,7 +15,7 @@
 
 #include "buffer/replacer.h"
 
-namespace cmudb {
+namespace scudb {
 
 template <typename T> class LRUReplacer : public Replacer<T> {
   struct node {
@@ -54,4 +54,4 @@ private:
   std::unordered_map<T, node *> table_;
 };
 
-} // namespace cmudb
+} // namespace scudb

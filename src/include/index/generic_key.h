@@ -15,7 +15,7 @@
 #include "table/tuple.h"
 #include "type/value.h"
 
-namespace cmudb {
+namespace scudb {
 template <size_t KeySize> class GenericKey {
 public:
   inline void SetFromKey(const Tuple &tuple) {
@@ -95,4 +95,4 @@ private:
   Schema *key_schema_;
 };
 
-} // namespace cmudb
+} // namespace scudb

@@ -8,7 +8,7 @@
 
 #include "buffer/buffer_pool_manager.h"
 
-namespace cmudb {
+namespace scudb {
 
 /*
  * BufferPoolManager Constructor
@@ -222,4 +222,4 @@ Page *BufferPoolManager::NewPage(page_id_t &page_id) {
   return res;
 }
 
-} // namespace cmudb
+} // namespace scudb

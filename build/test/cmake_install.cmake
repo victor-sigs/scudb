@@ -1,4 +1,4 @@
-# Install script for directory: /home/victor/Desktop/ScuDb/cmu15-445-master/project/test
+# Install script for directory: /home/victor/Desktop/ScuDb/scudb_project2/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

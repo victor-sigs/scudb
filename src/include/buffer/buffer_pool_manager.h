@@ -17,7 +17,7 @@
 #include "logging/log_manager.h"
 #include "page/page.h"
 
-namespace cmudb {
+namespace scudb {
 
 class BufferPoolManager {
 public:
@@ -63,4 +63,4 @@ private:
   std::mutex latch_;                         // to protect shared data structure
 };
 
-} // namespace cmudb
+} // namespace scudb

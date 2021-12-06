@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/victor/Desktop/ScuDb/cmu15-445-master/project/src/sqlite/sqlite3.c
+/home/victor/Desktop/ScuDb/scudb_project2/src/sqlite/sqlite3.c
 config.h
-/home/victor/Desktop/ScuDb/cmu15-445-master/project/src/sqlite/config.h
+/home/victor/Desktop/ScuDb/scudb_project2/src/sqlite/config.h
 vxWorks.h
 -
 pthread.h
 -
 mingw.h
-/home/victor/Desktop/ScuDb/cmu15-445-master/project/src/sqlite/mingw.h
+/home/victor/Desktop/ScuDb/scudb_project2/src/sqlite/mingw.h
 _mingw.h
-/home/victor/Desktop/ScuDb/cmu15-445-master/project/src/sqlite/_mingw.h
+/home/victor/Desktop/ScuDb/scudb_project2/src/sqlite/_mingw.h
 stdarg.h
 -
 stdint.h
@@ -54,7 +54,7 @@ malloc.h
 pthread.h
 -
 windows.h
-/home/victor/Desktop/ScuDb/cmu15-445-master/project/src/sqlite/windows.h
+/home/victor/Desktop/ScuDb/scudb_project2/src/sqlite/windows.h
 sys/cygwin.h
 -
 errno.h
@@ -98,11 +98,11 @@ sys/statvfs.h
 dlfcn.h
 -
 sqlite_tcl.h
-/home/victor/Desktop/ScuDb/cmu15-445-master/project/src/sqlite/sqlite_tcl.h
+/home/victor/Desktop/ScuDb/scudb_project2/src/sqlite/sqlite_tcl.h
 tcl.h
-/home/victor/Desktop/ScuDb/cmu15-445-master/project/src/sqlite/tcl.h
+/home/victor/Desktop/ScuDb/scudb_project2/src/sqlite/tcl.h
 sqlite3rtree.h
-/home/victor/Desktop/ScuDb/cmu15-445-master/project/src/sqlite/sqlite3rtree.h
+/home/victor/Desktop/ScuDb/scudb_project2/src/sqlite/sqlite3rtree.h
 unicode/utypes.h
 -
 unicode/uregex.h

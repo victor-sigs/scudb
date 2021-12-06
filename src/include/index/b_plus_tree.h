@@ -19,7 +19,7 @@
 #include "page/b_plus_tree_internal_page.h"
 #include "page/b_plus_tree_leaf_page.h"
 
-namespace cmudb {
+namespace scudb {
 
 #define BPLUSTREE_TYPE BPlusTree<KeyType, ValueType, KeyComparator>
 
@@ -129,4 +129,4 @@ private:
   KeyComparator comparator_;
 };
 
-} // namespace cmudb
+} // namespace scudb

@@ -41,4 +41,4 @@ test/CMakeFiles/b_plus_tree_print_test.dir/index/b_plus_tree_print_test.cpp.o
  ../src/include/type/value.h
  ../src/include/vtable/virtual_table.h
  ../third_party/gmock/gtest/gtest.h
- /home/victor/Desktop/ScuDb/cmu15-445-master/project/test/index/b_plus_tree_print_test.cpp
+ /home/victor/Desktop/ScuDb/scudb_project2/test/index/b_plus_tree_print_test.cpp

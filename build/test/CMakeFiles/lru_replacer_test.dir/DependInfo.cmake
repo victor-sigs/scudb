@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/victor/Desktop/ScuDb/cmu15-445-master/project/test/buffer/lru_replacer_test.cpp" "/home/victor/Desktop/ScuDb/cmu15-445-master/project/build/test/CMakeFiles/lru_replacer_test.dir/buffer/lru_replacer_test.cpp.o"
+  "/home/victor/Desktop/ScuDb/scudb_project2/test/buffer/lru_replacer_test.cpp" "/home/victor/Desktop/ScuDb/scudb_project2/build/test/CMakeFiles/lru_replacer_test.dir/buffer/lru_replacer_test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -19,9 +19,9 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/victor/Desktop/ScuDb/cmu15-445-master/project/build/src/CMakeFiles/vtable.dir/DependInfo.cmake"
-  "/home/victor/Desktop/ScuDb/cmu15-445-master/project/build/src/CMakeFiles/sqlite3.dir/DependInfo.cmake"
-  "/home/victor/Desktop/ScuDb/cmu15-445-master/project/build/test/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/home/victor/Desktop/ScuDb/scudb_project2/build/src/CMakeFiles/vtable.dir/DependInfo.cmake"
+  "/home/victor/Desktop/ScuDb/scudb_project2/build/src/CMakeFiles/sqlite3.dir/DependInfo.cmake"
+  "/home/victor/Desktop/ScuDb/scudb_project2/build/test/CMakeFiles/gtest.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

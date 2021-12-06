@@ -1,1 +1,1 @@
-/usr/bin/cc   -rdynamic CMakeFiles/sqlite3_shell.dir/sqlite/shell.c.o  -o ../bin/sqlite3  -Wl,-rpath,/home/victor/Desktop/ScuDb/cmu15-445-master/project/build/lib ../lib/libsqlite3.so -lpthread -ldl 
+/usr/bin/cc   -rdynamic CMakeFiles/sqlite3_shell.dir/sqlite/shell.c.o  -o ../bin/sqlite3  -Wl,-rpath,/home/victor/Desktop/ScuDb/scudb_project2/build/lib ../lib/libsqlite3.so -lpthread -ldl 

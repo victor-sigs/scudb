@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/victor/Desktop/ScuDb/cmu15-445-master/project/src/sqlite/sqlite3.c" "/home/victor/Desktop/ScuDb/cmu15-445-master/project/build/src/CMakeFiles/sqlite3.dir/sqlite/sqlite3.c.o"
+  "/home/victor/Desktop/ScuDb/scudb_project2/src/sqlite/sqlite3.c" "/home/victor/Desktop/ScuDb/scudb_project2/build/src/CMakeFiles/sqlite3.dir/sqlite/sqlite3.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

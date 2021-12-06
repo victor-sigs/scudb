@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/victor/Desktop/ScuDb/cmu15-445-master/project
+CMAKE_SOURCE_DIR = /home/victor/Desktop/ScuDb/scudb_project2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/victor/Desktop/ScuDb/cmu15-445-master/project/build
+CMAKE_BINARY_DIR = /home/victor/Desktop/ScuDb/scudb_project2/build
 
 # Utility rule file for check.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/victor/Desktop/ScuDb/cmu15-445-master/project/build
 include test/CMakeFiles/check.dir/progress.make
 
 test/CMakeFiles/check:
-	cd /home/victor/Desktop/ScuDb/cmu15-445-master/project/build/test && /usr/bin/ctest --verbose
+	cd /home/victor/Desktop/ScuDb/scudb_project2/build/test && /usr/bin/ctest --verbose
 
 check: test/CMakeFiles/check
 check: test/CMakeFiles/check.dir/build.make
@@ -67,10 +67,10 @@ test/CMakeFiles/check.dir/build: check
 .PHONY : test/CMakeFiles/check.dir/build
 
 test/CMakeFiles/check.dir/clean:
-	cd /home/victor/Desktop/ScuDb/cmu15-445-master/project/build/test && $(CMAKE_COMMAND) -P CMakeFiles/check.dir/cmake_clean.cmake
+	cd /home/victor/Desktop/ScuDb/scudb_project2/build/test && $(CMAKE_COMMAND) -P CMakeFiles/check.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/check.dir/clean
 
 test/CMakeFiles/check.dir/depend:
-	cd /home/victor/Desktop/ScuDb/cmu15-445-master/project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/victor/Desktop/ScuDb/cmu15-445-master/project /home/victor/Desktop/ScuDb/cmu15-445-master/project/test /home/victor/Desktop/ScuDb/cmu15-445-master/project/build /home/victor/Desktop/ScuDb/cmu15-445-master/project/build/test /home/victor/Desktop/ScuDb/cmu15-445-master/project/build/test/CMakeFiles/check.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/victor/Desktop/ScuDb/scudb_project2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/victor/Desktop/ScuDb/scudb_project2 /home/victor/Desktop/ScuDb/scudb_project2/test /home/victor/Desktop/ScuDb/scudb_project2/build /home/victor/Desktop/ScuDb/scudb_project2/build/test /home/victor/Desktop/ScuDb/scudb_project2/build/test/CMakeFiles/check.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/check.dir/depend
 
