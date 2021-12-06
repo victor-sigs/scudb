@@ -20,5 +20,8 @@
 ## project1分支：
 - 实现buffer_pool_manager
 - screenshots
+## project2分支：
+- 实现b_plus_tree
+- screenshots
 # 每次作业将会在main分支创建一个新文件夹并上传
 # 每次编程项目则会创建一个新分支，例如project1分支
