@@ -15,7 +15,7 @@
 #include "vtable/virtual_table.h"
 #include "gtest/gtest.h"
 
-namespace cmudb {
+namespace scudb {
 // helper function to launch multiple threads
 template <typename... Args>
 void LaunchParallelTest(uint64_t num_threads, Args &&... args) {
@@ -416,4 +416,4 @@ TEST(BPlusTreeConcurrentTest, MixTest2) {
   remove("test.log");
 }
 
-} // namespace cmudb
+} // namespace scudb
