@@ -1,7 +1,8 @@
 # 四川大学数据库作业上传
 ### 姓名：王韦涛  
 ### 学号：2019141440320  
-## 已结课，共五次作业（main分支中2次homework，1次project0(p0)，project1分支和project2分支各1次）
+## 已结课，共五次作业
+## （main分支中2次homework，1次project0(p0)，project1分支和project2分支各1次）
 ## 目录结构：  
 ## main分支：
 ### - p0:  
